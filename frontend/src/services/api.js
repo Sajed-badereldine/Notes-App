@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const VITE_API_URL  = process.env.VITE_API_URL  || '/';
+const VITE_API_URL  = process.env.VITE_API_URL  || 'https://benzina.kereo.online';
 
 const api = axios.create({
   baseURL: VITE_API_URL ,
